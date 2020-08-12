@@ -1,16 +1,19 @@
-package com.sevencrayons.compass;
+package com.ivanov.compass;
 
-import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.animation.Animation;
 import android.view.animation.RotateAnimation;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 
-public class CompassActivity extends AppCompatActivity {
+public class CompassActivityOne extends AppCompatActivity {
 
     private static final String TAG = "CompassActivity";
 
@@ -31,6 +34,29 @@ public class CompassActivity extends AppCompatActivity {
         arrowView = findViewById(R.id.main_image_hands);
         sotwLabel = findViewById(R.id.sotw_label);
         setupCompass();
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.menu_compass,menu);
+        return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+
+        int id = item.getItemId();
+
+        switch (id) {
+            case R.id.about_author:
+                Intent intent = new Intent(this,AboutAuthorActivity.class);
+                startActivity(intent);
+                break;
+            default:
+
+        }
+
+        return super.onOptionsItemSelected(item);
     }
 
     @Override
@@ -66,7 +92,7 @@ public class CompassActivity extends AppCompatActivity {
     }
 
     private void adjustArrow(float azimuth) {
-        Log.d(TAG, "will set rotation from " + currentAzimuth + " to "
+        Log.d(TAG, "установить вращение от " + currentAzimuth + " до "
                 + azimuth);
 
         Animation an = new RotateAnimation(-currentAzimuth, -azimuth,

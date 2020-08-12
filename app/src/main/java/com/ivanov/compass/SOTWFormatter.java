@@ -1,6 +1,8 @@
-package com.sevencrayons.compass;
+package com.ivanov.compass;
 
 import android.content.Context;
+
+import com.ivanov.compass.R;
 
 /**
  * SOTW is short Side Of The World

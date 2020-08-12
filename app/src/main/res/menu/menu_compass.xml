@@ -1,6 +1,26 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools" tools:context=".CompassActivity">
-    <item android:id="@+id/action_settings" android:title="@string/action_settings"
-        android:orderInCategory="100" app:showAsAction="never" />
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".CompassActivityOne">
+    <item
+        android:id="@+id/about_author"
+        android:orderInCategory="1"
+        app:showAsAction="never"
+        android:title="@string/about_author" />
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="3"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/times"
+        android:orderInCategory="2"
+        android:title="@string/times"
+        app:showAsAction="never"
+
+        />
+
+
 </menu>

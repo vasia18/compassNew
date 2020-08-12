@@ -1,4 +1,4 @@
-package com.sevencrayons.compass;
+package com.ivanov.compass;
 
 import android.content.Context;
 import android.hardware.Sensor;
