@@ -52,6 +52,14 @@ public class CompassActivityOne extends AppCompatActivity {
                 Intent intent = new Intent(this,AboutAuthorActivity.class);
                 startActivity(intent);
                 break;
+            case R.id.action_settings:
+                Intent intent1= new Intent(this, ActionSettingsActivity.class);
+                startActivity(intent1);
+                break;
+            case R.id.theme_activity:
+                Intent intent2=new Intent(this, ThemeActivity.class);
+                startActivity(intent2);
+                break;
             default:
 
         }
