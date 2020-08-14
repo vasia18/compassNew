@@ -11,7 +11,9 @@
     <string name="sotw_northwest">СЗ</string>
     <string name="sotw_southeast">ЮВ</string>
     <string name="sotw_southwest">ЮЗ</string>
-    <string name="about_author">О авторе</string>
+    <string name="author">автор</string>
     <string name="times">Темы</string>
+    <string name="about_app">О приложении</string>
+    <string name="app_name_text">Пока текста нет. Текст находится в разработке.</string>
 
 </resources>

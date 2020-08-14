@@ -14,7 +14,9 @@
     <string name="sotw_northwest">NW</string>
     <string name="sotw_southeast">SE</string>
     <string name="sotw_southwest">SW</string>
-    <string name="about_author">About Author</string>
+    <string name="author">Author</string>
     <string name="times">times</string>
+    <string name="about_app">About app</string>
+    <string name="app_name_text">There is no text yet. The text is under development.</string>
 
 </resources>

@@ -3,20 +3,25 @@
     xmlns:tools="http://schemas.android.com/tools"
     tools:context=".CompassActivityOne">
     <item
-        android:id="@+id/about_author"
+        android:id="@+id/menu_about_app"
         android:orderInCategory="1"
         app:showAsAction="never"
-        android:title="@string/about_author" />
+        android:title="@string/about_app"/>
+    <item
+        android:id="@+id/menu_about_author"
+        android:orderInCategory="2"
+        android:title="@string/author"
+        app:showAsAction="never" />
 
     <item
-        android:id="@+id/action_settings"
+        android:id="@+id/menu_action_settings"
         android:orderInCategory="3"
         android:title="@string/action_settings"
         app:showAsAction="never" />
 
     <item
-        android:id="@+id/theme_activity"
-        android:orderInCategory="2"
+        android:id="@+id/menu_theme_activity"
+        android:orderInCategory="4"
         android:title="@string/times"
         app:showAsAction="never"
 
