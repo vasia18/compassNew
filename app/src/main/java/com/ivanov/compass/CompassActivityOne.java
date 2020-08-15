@@ -1,6 +1,8 @@
 package com.ivanov.compass;
 
 import android.content.Intent;
+import android.content.pm.ApplicationInfo;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
@@ -10,6 +12,8 @@ import android.view.animation.Animation;
 import android.view.animation.RotateAnimation;
 import android.widget.ImageView;
 import android.widget.TextView;
+
+import java.io.File;
 
 
 public class CompassActivityOne extends AppCompatActivity {
@@ -62,7 +66,14 @@ public class CompassActivityOne extends AppCompatActivity {
 				Intent intent3 = new Intent(this, ThemeActivity.class);
 				startActivity(intent3);
 				break;
-			default:
+			case R.id.share:
+				ApplicationInfo api = getApplicationContext().getApplicationInfo();
+				String apkpath = api.sourceDir;
+				Intent intent4 = new Intent(Intent.ACTION_SEND);
+				intent4.setType("Application/vnd.android.package-archive");
+				intent4.putExtra(Intent.EXTRA_STREAM, Uri.fromFile(new File(apkpath)));
+				startActivity(Intent.createChooser(intent4, "ShareVia"));
+
 
 		}
 
