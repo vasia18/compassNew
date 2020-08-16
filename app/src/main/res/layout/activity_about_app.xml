@@ -1,44 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".AboutAppActivity">
 
-    <LinearLayout
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/image_view_layout_marginTop"
+        android:background="@drawable/logo_little"
+        android:contentDescription="@string/image_view" />
+
+    <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="16dp"
-        android:orientation="vertical">
+        android:layout_marginTop="@dimen/layout_marginTop"
+        android:gravity="center"
+        android:text="@string/text_logo"
+        android:textColor="@color/black"
+        android:textSize="@dimen/textSize33sp" />
 
-        <ImageView
-            android:layout_width="60dp"
-            android:layout_height="60dp"
-            android:layout_gravity="center"
-            android:layout_marginTop="@dimen/image_view_layout_marginTop"
-            android:background="@drawable/logo_little"
-            android:contentDescription="@string/image_view" />
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/layout_marginTop"
-            android:gravity="center"
-            android:text="@string/text_logo"
-            android:textColor="@color/black"
-            android:textSize="@dimen/textSize33sp" />
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:gravity="center"
-            android:text="@string/version_1_0"
-            android:textColor="@color/grey"
-            android:textSize="@dimen/textSize20sp" />
-
-    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="@string/version_1_0"
+        android:textColor="@color/grey"
+        android:textSize="@dimen/textSize20sp" />
 
 
-</RelativeLayout>
+</LinearLayout>

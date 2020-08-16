@@ -14,7 +14,6 @@ public class AboutAppActivity extends AppCompatActivity {
 
         getSupportActionBar().setTitle("О при"); // Прописываем название в ToolBar
         getSupportActionBar().setDisplayHomeAsUpEnabled(true); // Прописываем стрелку назад
-        getSupportActionBar().setHomeButtonEnabled(true);
 
     }
 }
