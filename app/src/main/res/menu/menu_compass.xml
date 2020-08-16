@@ -22,7 +22,7 @@
     <item
         android:id="@+id/menu_theme_activity"
         android:orderInCategory="4"
-        android:title="@string/times"
+        android:title="@string/themes"
         app:showAsAction="never" />
 
     <item

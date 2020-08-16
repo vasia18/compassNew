@@ -11,5 +11,7 @@ public class AboutAuthorActivity extends AppCompatActivity {
 		setContentView(R.layout.activity_about_author);
 
 		getSupportActionBar().setTitle("O авторе");  // Прописываем название в ToolBar
+		getSupportActionBar().setDisplayHomeAsUpEnabled(true);  //Прописываем стрелку назад
+		getSupportActionBar().setHomeButtonEnabled(true);
 	}
 }
