@@ -9,5 +9,7 @@ public class AboutAuthorActivity extends AppCompatActivity {
 	protected void onCreate(@Nullable Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_about_author);
+
+		getSupportActionBar().setTitle("O авторе");  // Прописываем название в ToolBar
 	}
 }

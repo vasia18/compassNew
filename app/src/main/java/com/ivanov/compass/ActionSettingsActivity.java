@@ -10,5 +10,8 @@ public class ActionSettingsActivity extends AppCompatActivity {
 	protected void onCreate(@Nullable Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_action_settings);
+
+
+		getSupportActionBar().setTitle("Настройки");  // Прописываем название в ToolBar
 	}
 }

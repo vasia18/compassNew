@@ -1,12 +1,20 @@
 package com.ivanov.compass;
 
+import android.content.Intent;
+import android.os.Bundle;
+import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
-import android.view.View;
 
 public class AboutAppActivity extends AppCompatActivity {
+
 	@Override
-	public void setContentView(View view) {
-		super.setContentView(view);
+	protected void onCreate(@Nullable Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_about_app);
+
+
+		getSupportActionBar().setTitle("О при"); // Прописываем название в ToolBar
+		getSupportActionBar().setDisplayHomeAsUpEnabled(true); // Прописываем стрелку назад
+
 	}
 }

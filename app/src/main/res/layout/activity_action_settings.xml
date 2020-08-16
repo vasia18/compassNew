@@ -6,4 +6,10 @@
     android:orientation="vertical"
     tools:context=".ActionSettingsActivity">
 
+    <TextView
+        android:id="@+id/about_author_"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/settings" />
+
 </LinearLayout>

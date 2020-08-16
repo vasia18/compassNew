@@ -14,6 +14,10 @@
     <string name="author">автор</string>
     <string name="times">Темы</string>
     <string name="about_app">О приложении</string>
-    <string name="app_name_text">Пока текста нет. Текст находится в разработке.</string>
+    <string name="image_view">Картинка</string>
+    <string name="settings">Настройка</string>
+    <string name="app_name_text">Пока текста нет.\n
+        Текст находится в разработке.</string>
+    <string name="share">Поделится</string>
 
 </resources>

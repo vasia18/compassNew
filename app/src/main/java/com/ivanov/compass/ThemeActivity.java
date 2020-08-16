@@ -11,5 +11,7 @@ public class ThemeActivity extends AppCompatActivity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_theme_activity);
 
+		getSupportActionBar().setTitle("Тема"); // Прописываем название в ToolBar
+
 	}
 }

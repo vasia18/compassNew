@@ -5,10 +5,10 @@ android {
     buildToolsVersion '28.0.3'
 
     defaultConfig {
-        applicationId 'arkadii.ivanov.compass'
+        applicationId 'com.ivanov.compass'
         minSdkVersion 16
             targetSdkVersion 28
-        versionCode 201910230
+        versionCode 20200816
         versionName '1.0'
     }
     buildTypes {
