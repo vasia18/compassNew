@@ -12,7 +12,7 @@ public class AboutAppActivity extends AppCompatActivity {
         setContentView(R.layout.activity_about_app);
 
 
-        getSupportActionBar().setTitle("О при"); // Прописываем название в ToolBar
+        getSupportActionBar().setTitle("О приложении"); // Прописываем название в ToolBar
         getSupportActionBar().setDisplayHomeAsUpEnabled(true); // Прописываем стрелку назад
 
     }

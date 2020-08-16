@@ -54,6 +54,7 @@ public class CompassActivityOne extends AppCompatActivity {
 			case R.id.menu_about_app:
 				Intent intent = new Intent(this, AboutAppActivity.class);
 				startActivity(intent);
+				break;
 			case R.id.menu_about_author:
 				Intent intent1 = new Intent(this, AboutAuthorActivity.class);
 				startActivity(intent1);
@@ -73,6 +74,8 @@ public class CompassActivityOne extends AppCompatActivity {
 				intent4.setType("Application/vnd.android.package-archive");
 				intent4.putExtra(Intent.EXTRA_STREAM, Uri.fromFile(new File(apkpath)));
 				startActivity(Intent.createChooser(intent4, "ShareVia"));
+				break;
+			default:
 
 
 		}

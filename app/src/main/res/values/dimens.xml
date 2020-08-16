@@ -13,4 +13,5 @@
     <dimen name="textSize33sp">33sp</dimen>
     <dimen name="textSize20sp">20sp</dimen>
     <dimen name="version">20sp</dimen>
+    <dimen name="textSize50sp">50sp</dimen>
 </resources>
