@@ -4,6 +4,8 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Compass.iml" filepath="$PROJECT_DIR$/Compass.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/compass.iml" filepath="$PROJECT_DIR$/.idea/modules/compass.iml" group="compass" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/compass-app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/compass-app.iml" group="compass/app" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/compassNew.iml" filepath="$PROJECT_DIR$/.idea/modules/compassNew.iml" group="compassNew" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/compassNew-app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/compassNew-app.iml" group="compassNew/app" />
     </modules>

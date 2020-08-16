@@ -6,4 +6,11 @@
     <dimen name="main_image_hands_layout_height">240dp</dimen>
     <dimen name="main_image_dial_layout_width">320dp</dimen>
     <dimen name="main_image_dial_layout_height">320dp</dimen>
+
+    <dimen name="image_view_layout_marginTop">50dp</dimen>
+    <dimen name="layout_margin">16dp</dimen>
+    <dimen name="layout_marginTop">25dp</dimen>
+    <dimen name="textSize33sp">33sp</dimen>
+    <dimen name="textSize20sp">20sp</dimen>
+    <dimen name="version">20sp</dimen>
 </resources>

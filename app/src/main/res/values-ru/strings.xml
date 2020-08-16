@@ -16,8 +16,12 @@
     <string name="about_app">О приложении</string>
     <string name="image_view">Картинка</string>
     <string name="settings">Настройка</string>
+
     <string name="app_name_text">Пока текста нет.\n
         Текст находится в разработке.</string>
+
     <string name="share">Поделится</string>
+    <string name="text_logo">КОМПАС</string>
+    <string name="version_1_0">версия 1.0</string>
 
 </resources>
