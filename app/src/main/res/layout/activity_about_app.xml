@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:layout_margin="16dp"
     android:orientation="vertical"
     tools:context=".AboutAppActivity">
 
@@ -32,6 +33,12 @@
         android:text="@string/version_1_0"
         android:textColor="@color/grey"
         android:textSize="@dimen/textSize20sp" />
+
+    <TextView
+        android:layout_marginTop="@dimen/textSize20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name_text"/>
 
 
 </LinearLayout>

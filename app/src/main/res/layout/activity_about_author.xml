@@ -6,5 +6,27 @@
     android:orientation="vertical"
     tools:context=".AboutAuthorActivity">
 
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="45dp"
+        android:orientation="horizontal">
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Иванов Аркадий" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/textSize20sp"
+            android:autoLink="email"
+            android:text="avi26@mail.ru" />
+
+    </LinearLayout>
+
 
 </LinearLayout>

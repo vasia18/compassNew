@@ -20,8 +20,13 @@
     <string name="about_app">About app</string>
     <string name="image_view">image_view</string>
 
-    <string name="app_name_text">There is no text yet.\n
-        The text is under development.</string>
+    <string name="app_name_text">
+        Convenient navigation app for Android.\n
+        You can use it to determine the exact\n
+        coordinates of your current location,\n
+        find the directions of the cardinal directions.\n
+        It will become an indispensable assistant \n
+        for travel lovers.</string>
 
     <string name="share">Share</string>
     <string name="text_logo">COMPASS</string>

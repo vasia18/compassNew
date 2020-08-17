@@ -17,8 +17,14 @@
     <string name="image_view">Картинка</string>
     <string name="settings">Настройка</string>
 
-    <string name="app_name_text">Пока текста нет.\n
-        Текст находится в разработке.</string>
+    <string name="app_name_text">
+        Удобное навигационное приложение для Андроид.\n
+        С ее помощью вы сможете определять точные\n
+        координаты своего текущего местонахождения,\n
+        находить направления сторон света.\n
+        Станет незаменимым помощником\n
+        для любителей путешествий.\n
+        .</string>
 
     <string name="share">Поделится</string>
     <string name="text_logo">КОМПАС</string>
