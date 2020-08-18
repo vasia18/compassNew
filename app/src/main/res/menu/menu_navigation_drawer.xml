@@ -6,19 +6,21 @@
     <group android:checkableBehavior="single">
 
         <item
-            android:title="Калибровать приложение "
-            android:id="@+id/id_Calibrate"/>
+            android:id="@+id/id_Calibrate_navigation"
+            android:title="Калибровать приложение " />
 
-        <item android:title="@string/about_app"
-            android:id="@+id/id_"
-            />
-        <item android:title="@string/settings"
-            />
-        <item android:title="@string/themes"
-            />
+        <item
+            android:id="@+id/id_id_about_app_navigation"
+            android:title="@string/about_app" />
+        <item
+            android:id="@+id/id_setting_navigation"
+            android:title="@string/settings" />
+        <item
+            android:id="@+id/id_themes_navigation"
+            android:title="@string/themes" />
 
 
     </group>
 
 
-</menu>˚
+</menu>
