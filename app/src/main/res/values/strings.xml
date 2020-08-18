@@ -26,7 +26,11 @@
         coordinates of your current location,\n
         find the directions of the cardinal directions.\n
         It will become an indispensable assistant \n
-        for travel lovers.</string>
+        for travel lovers.
+
+    You need to add more text, \n
+so that if possible there is no empty space\n
+    </string>
 
     <string name="share">Share</string>
     <string name="text_logo">COMPASS</string>
