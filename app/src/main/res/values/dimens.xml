@@ -14,4 +14,5 @@
     <dimen name="textSize20sp">20sp</dimen>
     <dimen name="version">20sp</dimen>
     <dimen name="textSize50sp">50sp</dimen>
+    <dimen name="nav_header_height">176dp</dimen>
 </resources>
