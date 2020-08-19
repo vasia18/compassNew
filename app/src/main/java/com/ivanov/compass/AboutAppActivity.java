@@ -1,8 +1,8 @@
 package com.ivanov.compass;
 
 import android.os.Bundle;
-import android.support.annotation.Nullable;
-import android.support.v7.app.AppCompatActivity;
+import androidx.annotation.Nullable;
+import androidx.appcompat.app.AppCompatActivity;
 
 public class AboutAppActivity extends AppCompatActivity {
 
@@ -14,6 +14,5 @@ public class AboutAppActivity extends AppCompatActivity {
 
         getSupportActionBar().setTitle("О приложении"); // Прописываем название в ToolBar
         getSupportActionBar().setDisplayHomeAsUpEnabled(true); // Прописываем стрелку назад
-
     }
 }

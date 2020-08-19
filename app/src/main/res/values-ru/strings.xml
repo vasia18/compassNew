@@ -28,6 +28,20 @@
         Нужно добавить еще текст, \n
         чтобы по возможности небыло пустого места\n
         .</string>
+    <string name="Не имеет назойливой рекламы;">1_text</string>
+    <string name="Приложение не требует доступа к интернету">2_text</string>
+
+    <string name="Не требует ручной настройки;">3_text</string>
+    <string name="автоматическая калибровка">4_text</string>
+
+
+    <string name="Работает как на ландшафтной ориентации, так и на портретной;">5_text</string>
+    <string name="Полностью бесплатен;">6_text</string>
+    <string name="Поддерживается не каждым устройством;">7_text</string>
+
+
+
+
 
     <string name="share">Поделится</string>
     <string name="text_logo">КОМПАС</string>

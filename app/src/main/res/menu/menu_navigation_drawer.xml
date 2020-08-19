@@ -26,6 +26,18 @@
             android:icon="@drawable/vector_theme_palette"
             android:title="@string/themes" />
 
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item
+            android:icon="@drawable/vector_star"
+            android:title="Пункт 1" />
+        <item
+            android:icon="@drawable/vector_star"
+            android:title="Пункт 2" />
+        <item
+            android:icon="@drawable/vector_star"
+            android:title="Пункт 3" />
 
     </group>
 

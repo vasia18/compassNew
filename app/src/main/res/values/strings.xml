@@ -32,6 +32,8 @@
 so that if possible there is no empty space\n
     </string>
 
+    <string name="automatic calibration">1_text</string>
+
     <string name="share">Share</string>
     <string name="text_logo">COMPASS</string>
     <string name="version_1_0">версия 1.0</string>
