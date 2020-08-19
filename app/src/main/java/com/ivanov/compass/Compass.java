@@ -16,7 +16,7 @@ public class Compass implements SensorEventListener {
     private CompassListener listener;
 
     private SensorManager sensorManager;
-    private Sensor gsensor;
+    private Sensor Kgsensor;
     private Sensor msensor;
 
     private float[] mGravity = new float[3];

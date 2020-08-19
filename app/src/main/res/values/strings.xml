@@ -21,18 +21,20 @@
     <string name="image_view">image_view</string>
 
     <string name="app_name_text">
-        Convenient navigation app for Android.\n
-        You can use it to determine the exact\n
-        coordinates of your current location,\n
-        find the directions of the cardinal directions.\n
-        It will become an indispensable assistant \n
-        for travel lovers.
-
-    You need to add more text, \n
-so that if possible there is no empty space\n
+        Convenient navigation app for Android. You can use it to\n
+        determine the exact coordinates of your current location,\n
+        find the directions of the cardinal directions. It will become\n
+        an indispensable assistant for travel lovers. You need to\n
+        add more text, so that if possible there is no empty space \n
     </string>
 
-    <string name="automatic calibration">1_text</string>
+    <string name="one_text">Does not have annoying ads;</string>
+    <string name="two_text">The app does not require Internet access;</string>
+    <string name="free_text">Does not require manual configuration;</string>
+    <string name="fore_text">automatic calibration;</string>
+    <string name="five_text">Works on both landscape and portrait orientation;</string>
+    <string name="six_text">Completely free;</string>
+    <string name="seven_text">Not supported by every device;</string>
 
     <string name="share">Share</string>
     <string name="text_logo">COMPASS</string>
