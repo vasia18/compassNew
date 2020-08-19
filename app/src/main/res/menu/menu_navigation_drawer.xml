@@ -7,18 +7,22 @@
 
         <item
             android:id="@+id/id_Calibrate_navigation"
+            android:icon="@drawable/vector_near"
             android:title="Калибровать приложение " />
         <item
             android:id="@+id/id_autor_navigation"
             android:title="@string/author" />
         <item
             android:id="@+id/id_id_about_app_navigation"
+
             android:title="@string/about_app" />
         <item
             android:id="@+id/id_setting_navigation"
+            android:icon="@drawable/vector_settings"
             android:title="@string/settings" />
         <item
             android:id="@+id/id_themes_navigation"
+            android:icon="@drawable/vector_theme_palette"
             android:title="@string/themes" />
 
 
