@@ -11,10 +11,11 @@
             android:title="Калибровать приложение " />
         <item
             android:id="@+id/id_autor_navigation"
+            android:icon="@drawable/vector_star"
             android:title="@string/author" />
         <item
             android:id="@+id/id_id_about_app_navigation"
-
+            android:icon="@drawable/vector_phone"
             android:title="@string/about_app" />
         <item
             android:id="@+id/id_setting_navigation"
