@@ -29,16 +29,32 @@
     </group>
 
     <group android:checkableBehavior="single">
-        <item
-            android:icon="@drawable/vector_star"
-            android:title="Пункт 1" />
-        <item
-            android:icon="@drawable/vector_star"
-            android:title="Пункт 2" />
-        <item
-            android:icon="@drawable/vector_star"
-            android:title="Пункт 3" />
+        <item android:title="Profile" /> // Прописываем заголовки меню
+        <menu>
+            <item
+                android:icon="@drawable/vector_star"
+                android:title="Пункт 1" />
+            <item
+                android:icon="@drawable/vector_star"
+                android:title="Пункт 2" />
+            <item
+                android:icon="@drawable/vector_star"
+                android:title="Пункт 3" />
 
+        </menu>
+
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item android:title="Profile"> // Прописываем заголовки меню
+            <menu>
+                <item android:title="Пункт новый 1"
+                    <item />
+                <item android:title="Пункт новый 2"/>
+
+
+            </menu>
+        </item>
     </group>
 
 
