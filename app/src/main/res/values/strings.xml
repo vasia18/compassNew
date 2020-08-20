@@ -40,5 +40,8 @@
     <string name="text_logo">COMPASS</string>
     <string name="version_1_0">версия 1.0</string>
 
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
 
 </resources>

@@ -37,4 +37,7 @@
     <string name="text_logo">КОМПАС</string>
     <string name="version_1_0">версия 1.0</string>
 
+    <string name="navigation_drawer_open">навигационный ящик открыт</string>
+    <string name="navigation_drawer_close">навигационный ящик закрыт</string>
+
 </resources>

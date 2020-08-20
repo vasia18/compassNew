@@ -11,8 +11,16 @@ import android.view.animation.Animation;
 import android.view.animation.RotateAnimation;
 import android.widget.ImageView;
 import android.widget.TextView;
-import java.io.File;
+import android.widget.Toolbar;
+
+import androidx.appcompat.app.ActionBarDrawerToggle;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.view.GravityCompat;
+import androidx.drawerlayout.widget.DrawerLayout;
+
+import com.google.android.material.navigation.NavigationView;
+
+import java.io.File;
 
 
 public class CompassActivityOne extends AppCompatActivity {
@@ -26,6 +34,10 @@ public class CompassActivityOne extends AppCompatActivity {
     private float currentAzimuth;
     private SOTWFormatter sotwFormatter;
 
+    DrawerLayout drawerLayout;      // Прописываем drawerLayout
+    NavigationView navigationView;  // Прописываем navigationView
+    Toolbar toolbar;                // Прописываем toolbar
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -36,6 +48,28 @@ public class CompassActivityOne extends AppCompatActivity {
         arrowView = findViewById(R.id.main_image_hands);
         sotwLabel = findViewById(R.id.sotw_label);
         setupCompass();
+
+        drawerLayout = findViewById(R.id.drawer_layout);  // Наодим по DI drawer_layout
+        drawerLayout = findViewById(R.id.nav_view);       // Находим по ID nav_view
+        drawerLayout = findViewById(R.id.toolbar);        // Находим по ID toolbar
+
+        setSupportActionBar(toolbar);
+
+        ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(this, drawerLayout, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
+        drawerLayout.addDrawerListener(toggle);
+        toggle.syncState();
+    }
+
+    private void setSupportActionBar(Toolbar toolbar) {
+    }
+
+    @Override
+    public void onBackPressed() {
+        if (drawerLayout.isDrawerOpen(GravityCompat.START)) {
+            drawerLayout.closeDrawer(GravityCompat.START);
+        } else {
+            super.onBackPressed();
+        }
     }
 
     @Override
@@ -43,6 +77,8 @@ public class CompassActivityOne extends AppCompatActivity {
         getMenuInflater().inflate(R.menu.menu_compass, menu);
         return true;
     }
+
+}
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
