@@ -27,7 +27,6 @@
             android:title="@string/themes" />
 
     </group>
-
     <group android:checkableBehavior="single">
         <item android:title="Profile" />
 
@@ -49,8 +48,12 @@
     <group android:checkableBehavior="single">
         <item android:title="Profile">
             <menu>
-                <item android:title="Пункт новый 1" />
-                <item android:title="Пункт новый 2" />
+                <item
+                    android:icon="@drawable/vector_star"
+                    android:title="Пункт новый 1" />
+                <item
+                    android:icon="@drawable/vector_star"
+                    android:title="Пункт новый 2" />
 
 
             </menu>
