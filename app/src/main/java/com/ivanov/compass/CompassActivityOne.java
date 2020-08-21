@@ -192,8 +192,8 @@ public class CompassActivityOne extends AppCompatActivity implements NavigationV
 		};
 	}
 
-    @Override
-    public boolean onNavigationItemSelected(@NonNull MenuItem item) {
-        return true;
-    }
+	@Override
+	public boolean onNavigationItemSelected(@NonNull MenuItem item) {
+		return true;
+	}
 }
