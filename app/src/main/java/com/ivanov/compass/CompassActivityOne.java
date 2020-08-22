@@ -196,8 +196,12 @@ public class CompassActivityOne extends AppCompatActivity implements NavigationV
         };
     }
 
+    /* ----   Прописываем переход на другие Activity по нажатию на пункты меню NavigatinDrawer ---- */
+
     @Override
     public boolean onNavigationItemSelected(@NonNull MenuItem item) {
+        int id = item.getItemId();
+
         return true;
     }
 }
