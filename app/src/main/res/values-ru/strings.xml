@@ -40,4 +40,8 @@
     <string name="navigation_drawer_open">навигационный ящик открыт</string>
     <string name="navigation_drawer_close">навигационный ящик закрыт</string>
 
+    <string name="navigation_header">Navigation header</string>
+    <string name="COMPASS">КОМПАС</string>
+    <string name="avi26_mail_ru">avi26@mail.ru</string>
+
 </resources>

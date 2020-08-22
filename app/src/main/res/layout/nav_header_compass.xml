@@ -16,7 +16,7 @@
         android:id="@+id/imageViewHeader"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:contentDescription="Navigation header"
+        android:contentDescription="@string/navigation_header"
         android:paddingTop="8dp"
         app:srcCompat="@drawable/logo_little" />
 
@@ -24,13 +24,13 @@
         android:id="@+id/textViewHeader"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:paddingTop="8dp"
-        android:text="КОМПАС"
+        android:paddingTop="16dp"
+        android:text="@string/COMPASS"
         android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
 
     <TextView
         android:id="@+id/textView2Header"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="какой то текст" />
+        android:text="@string/avi26_mail_ru" />
 </LinearLayout>
