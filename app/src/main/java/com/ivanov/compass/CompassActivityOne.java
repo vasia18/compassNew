@@ -61,6 +61,7 @@ public class CompassActivityOne extends AppCompatActivity implements NavigationV
 
 
         /* ---------------------------     navigationDrawerMenu     -------------------------*/
+        navigationView.bringToFront();  // по нажатию меняет цвет на все меню NavigationDrawer
         ActionBarDrawerToggle toggle;
         toggle = new ActionBarDrawerToggle(this,
                 drawerLayout,

@@ -27,27 +27,27 @@
             android:title="@string/themes" />
 
     </group>
-    <group android:checkableBehavior="single">
-        <item android:title="Profile" />
 
+    <item android:title="Profile2">
         <menu>
-            <item
-                android:icon="@drawable/vector_star"
-                android:title="Пункт 1" />
-            <item
-                android:icon="@drawable/vector_star"
-                android:title="Пункт 2" />
-            <item
-                android:icon="@drawable/vector_star"
-                android:title="Пункт 3" />
-
+            <group android:checkableBehavior="single">
+                <item
+                    android:icon="@drawable/vector_star"
+                    android:title="Пункт 1" />
+                <item
+                    android:icon="@drawable/vector_star"
+                    android:title="Пункт 2" />
+                <item
+                    android:icon="@drawable/vector_star"
+                    android:title="Пункт 3" />
+            </group>
         </menu>
+    </item>
 
-    </group>
 
-    <group android:checkableBehavior="single">
-        <item android:title="Profile">
-            <menu>
+    <item android:title="NewProgile1">
+        <menu>
+            <group android:checkableBehavior="single">
                 <item
                     android:icon="@drawable/vector_star"
                     android:title="Пункт новый 1" />
@@ -55,10 +55,7 @@
                     android:icon="@drawable/vector_star"
                     android:title="Пункт новый 2" />
 
-
-            </menu>
-        </item>
-    </group>
-
-
+            </group>
+        </menu>
+    </item>
 </menu>
