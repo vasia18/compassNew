@@ -12,7 +12,6 @@ import android.view.animation.RotateAnimation;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import androidx.annotation.NonNull;
 import androidx.appcompat.app.ActionBarDrawerToggle;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
@@ -200,9 +199,32 @@ public class CompassActivityOne extends AppCompatActivity implements NavigationV
     /* ----   Прописываем переход на другие Activity по нажатию на пункты меню NavigatinDrawer ---- */
 
     @Override
-    public boolean onNavigationItemSelected(@NonNull MenuItem item) {
-        int id = item.getItemId();
+    public boolean onNavigationItemSelected(MenuItem menuItem) {
 
+        switch (menuItem.getItemId()) {
+            case R.id.id_home:
+                Intent intent4 = new Intent(CompassActivityOne.this, AboutAuthorActivity.class);
+                startActivity(intent4);
+                break;
+
+            case R.id.id_autor_navigation:
+                Intent intent5 = new Intent(CompassActivityOne.this, AboutAppActivity.class);
+                startActivity(intent5);
+                break;
+
+            case R.id.id_setting_navigation:
+                Intent intent6 = new Intent(this, ActionSettingsActivity.class);
+                startActivity(intent6);
+                break;
+
+            case R.id.id_id_about_app_navigation:
+                break;
+
+            case R.id.id_themes_navigation:
+                Intent intent8 = new Intent(this, ThemeActivity.class);
+                startActivity(intent8);
+        }
+drawerLayout.closeDrawer(GravityCompat.START);
         return true;
     }
 }

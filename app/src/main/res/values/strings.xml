@@ -46,6 +46,7 @@
     <string name="navigation_header">Navigation header</string>
     <string name="COMPASS">COMPASS</string>
     <string name="avi26_mail_ru">avi26@mail.ru</string>
+    <string name="home">Домой</string>
 
 
 </resources>

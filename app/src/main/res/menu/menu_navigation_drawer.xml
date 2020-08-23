@@ -6,9 +6,9 @@
     <group android:checkableBehavior="single">
 
         <item
-            android:id="@+id/id_Calibrate_navigation"
-            android:icon="@drawable/vector_near"
-            android:title="Калибровать приложение " />
+            android:id="@+id/id_home"
+            android:icon="@drawable/vector_home"
+            android:title="@string/home" />
         <item
             android:id="@+id/id_autor_navigation"
             android:icon="@drawable/vector_star"
